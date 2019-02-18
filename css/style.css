@@ -1373,7 +1373,7 @@ a.bg-danger:focus {
 .page-header {
   padding-bottom: 8px;
   margin: 36px 0 18px;
-  border-bottom: 1px solid #d6d6d6; }
+  border-bottom: 1px solid #535151; }
 
 ul,
 ol {
@@ -6170,7 +6170,7 @@ a:focus {
 
 .background {
   display: inline-block;
-  background: #4dbfd9;
+  background: #696c71;
   width: 100%;
   height: 190px;
   position: absolute;
@@ -6352,7 +6352,7 @@ div.loading img {
 .header {
   padding: 20px 0;
   text-align: center;
-  background: #41b3cd; }
+  background: #535151; }
 
 .logo {
   padding: 15px; }
@@ -6409,7 +6409,7 @@ div.loading img {
 /* Flexnav Base Styles */
 /*-===== Our styel  =====-*/
 .main-menu {
-  background: #4dbfd9;
+  background: #535151;
   padding-bottom: 60px;
   text-align: center; }
 
@@ -6513,18 +6513,18 @@ nav {
     overflow: visible; }
   .flexnav li ul li a {
     display: block;
-    background: #4dbfd9;
+    background: ##5a5d60;
     -webkit-transition: 0.5s;
     transition: 0.5s; }
     .flexnav li ul li a:hover {
-      background: #2699b3; }
+      background: #5a5d60; }
   .flexnav ul li ul,
   .flexnav ul li ul li ul {
     box-shadow: 0.139px 0.99px 3px 1px rgba(0, 1, 1, 0.118); }
   .flexnav ul li ul li a {
-    background: #4dbfd9; }
+    background: #5a5d60; }
   .flexnav ul li ul li ul li a {
-    background: #4dbfd9; }
+    background: #5a5d60; }
   .flexnav .touch-button {
     position: absolute;
     z-index: 999;
@@ -6764,9 +6764,9 @@ footer {
 /* About section style
 	-------------------------*/
 .hero {
-  background: url("http://placehold.it/1140x518");
-  background: url("http://placehold.it/1140x518");
-  background-color: #4dbfd9;
+  background: url("../img/about_img1.png");
+  background: url("../img/about_img1.png");
+  background-color: #6a6d72;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

@@ -472,11 +472,11 @@
 				</div>
 				<div class="col-md-12 reference">
 					<div class="reference-img pull-left">
-						<img class="img-circle" src="http://placehold.it/71x71" alt="">
+						<img class="img-circle" src="img/naoufel.png" alt="">
 					</div>
 					<div class="reference-title">
 						<h6>Naoufel Khayati </h6>
-						<span>CEO / Eva inc.</span>
+						<span>Director / 4C ENISo.</span>
 					</div>
 					<div class="clearfix"></div>
 					<div class="reference-description">
@@ -489,7 +489,7 @@
 					</div>
 					<div class="reference-title">
 						<h6>Ala Eddine Mehrez</h6>
-						<span>CEO / Wall-E inc.</span>
+						<span>Chief Project / OT 2S.</span>
 					</div>
 					<div class="clearfix"></div>
 					<div class="reference-description">
@@ -498,7 +498,7 @@
 				</div>
 				<div class="col-md-12 reference">
 					<div class="reference-img pull-left">
-						<img class="img-circle" src="http://placehold.it/71x71" alt="">
+						<img class="img-circle" src="img/TBS.png" alt="">
 					</div>
 					<div class="reference-title">
 						<h6>Taha Ben Salah </h6>
@@ -558,28 +558,31 @@
 		<br>
 		<div>
 			<h4 class="title">Feel Free To Contact Me</h4>
-			<form class="contact-forms">
+			<form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbxP1oe2CBcJUfpaami8NjwnIC7qnciwtXEEEjVOMtkS0SnEDsw/exec">
+ 
 				<div class="row">
 					<div class="col-md-6">
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Name">
+							<input  for="name" name="name" id="name" type="text" class="form-control" placeholder="Name">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" placeholder="Email">
+							<input  for="email" name="email" type="email" id="email" class="form-control" placeholder="Email">
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Phone">
+							<input for="phone" id="phone" name="phone" type="text" class="form-control" placeholder="Phone">
 						</div>
 					</div>
 					<div class="col-md-6">
-						<textarea class="form-control" rows="6" placeholder="Message"></textarea>
+						<textarea  for="message" id="message" name="message" class="form-control" rows="6" placeholder="Message"></textarea>
 					</div>
 				</div>
-			</form>
-			<div class="contact-btn">
-				<a class="btn btn-default rex-primary-btn-effect-No dark-color" href="javascript:void(0)" role="button"><span>Cancel</span></a>
-				<a class="btn btn-default rex-primary-btn-effect" href="javascript:void(0)" role="button">Send</a>
+				<div class="contact-btn">
+				<a class="btn btn-default rex-primary-btn-effect-No dark-color" role="button"> Cancel</a>
+				<button class="btn btn-default rex-primary-btn-effect-No dark-color"> <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
 			</div>
+			</form>
+			
 		</div>
 	</section>
 </div>
@@ -614,6 +617,7 @@
     <script src="js/vendor/masonry.pkgd.min.js"></script>
     <script src="js/vendor/skrollr.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/vendor/form-submission-handler.js"></script>
   
 
 
